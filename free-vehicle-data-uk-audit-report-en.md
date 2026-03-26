@@ -55,8 +55,6 @@ Content-Length: 0
 
 **Step 2: Response**
 
-![Response](images/4dd5f4d7-8e32-49f8-827a-26cd88aecd0a.jpg)
-
 ```http
 HTTP/1.1 200 OK
 Server: Apache/2.4.41 (Ubuntu)
@@ -64,7 +62,7 @@ Content-Type: application/json
 
 {"messages":["Vehicle search log was deleted!"],"html":""}
 ```
-
+![image](https://github.com/BigTiger2020/2026/blob/main/20260326-104128.jpg)
 ---
 
 ### Vulnerability 2: Unauthenticated Arbitrary File Deletion (ClearImages)
@@ -107,8 +105,6 @@ Content-Length: 0
 
 **Step 2: Response**
 
-![Response](images/96acfa9a-4132-43a8-b60f-77eaffa74ac9.jpg)
-
 ```http
 HTTP/1.1 200 OK
 Server: Apache/2.4.41 (Ubuntu)
@@ -116,7 +112,7 @@ Content-Type: application/json
 
 {"messages":["Local image cache files have been deleted!"],"html":""}
 ```
-
+![image](https://github.com/BigTiger2020/2026/blob/main/20260326-104144.jpg)
 ---
 
 ### Vulnerability 3: Unauthenticated Arbitrary Content Creation (CreatePages)
@@ -182,7 +178,7 @@ Host: 192.168.190.129
 
 HTTP/1.1 200 OK
 ```
-
+![image](https://github.com/BigTiger2020/2026/blob/main/ScreenShot_2026-03-26_104912_329.png)
 ---
 
 ## Remediation Suggestions

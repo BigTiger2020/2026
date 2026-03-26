@@ -54,17 +54,16 @@ Content-Length: 0
 ```
 
 **Step 2: 响应结果**
-
-![响应结果](images/4dd5f4d7-8e32-49f8-827a-26cd88aecd0a.jpg)
-
 ```http
 HTTP/1.1 200 OK
 Server: Apache/2.4.41 (Ubuntu)
 Content-Type: application/json
 
 {"messages":["Vehicle search log was deleted!"],"html":""}
-```
 
+
+```
+![image](https://github.com/BigTiger2020/2026/blob/main/20260326-104128.jpg)
 ---
 
 ### 漏洞 2：未授权任意文件删除 (ClearImages)
@@ -107,8 +106,6 @@ Content-Length: 0
 
 **Step 2: 响应结果**
 
-![响应结果](images/96acfa9a-4132-43a8-b60f-77eaffa74ac9.jpg)
-
 ```http
 HTTP/1.1 200 OK
 Server: Apache/2.4.41 (Ubuntu)
@@ -116,7 +113,7 @@ Content-Type: application/json
 
 {"messages":["Local image cache files have been deleted!"],"html":""}
 ```
-
+![image](https://github.com/BigTiger2020/2026/blob/main/20260326-104144.jpg)
 ---
 
 ### 漏洞 3：未授权任意页面创建 (CreatePages)
@@ -184,7 +181,7 @@ HTTP/1.1 200 OK
 ```
 
 ---
-
+![image](https://github.com/BigTiger2020/2026/blob/main/ScreenShot_2026-03-26_104912_329.png)
 ## 修复建议
 
 ### 1. 添加权限检查
